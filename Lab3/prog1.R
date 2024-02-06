@@ -1,0 +1,5 @@
+cat("Hello\n")
+print("Hi there!")
+cat(as.integer("123"))
+cat("\n",typeof("abcd"))
+cat("\n",abs(-7))
