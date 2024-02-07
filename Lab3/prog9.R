@@ -10,7 +10,5 @@ prod<-function(a,b){
   else
     return (a+prod(a,b-1))
 }
-
 res<-prod(3,1)
-
 cat("\nProd:",res)

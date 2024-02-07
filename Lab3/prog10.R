@@ -9,6 +9,5 @@ pow <- function(a, b) {
     return(a * pow(a, (b - 1)))
   }
 }
-
 res <- pow(3, -1)
 cat("\nPow:", res)
