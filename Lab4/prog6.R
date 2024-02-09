@@ -1,0 +1,7 @@
+my_vector <- c(45.6, 78.8, 65.0, 78.9, 456.7, 345.89, 87.6, 988.3)
+max_value <- max(my_vector)
+cat("Maximum value in the vector:", max_value, "\n")
+min_value <- min(my_vector)
+cat("Minimum value in the vector:", min_value, "\n")
+sum_value <- sum(my_vector)
+cat("Sum of all values in the vector:", sum_value, "\n")
