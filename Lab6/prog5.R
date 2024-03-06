@@ -1,0 +1,6 @@
+x=c(15,20,30,25,17)
+y=c("a","b","c","d","e")
+barplot(x,names.arg = y)
+barplot(x,names.arg = y,col="red")
+barplot(x,names.arg = y,col="red",horiz = TRUE)
+barplot(x,names.arg = y,col="red",horiz = TRUE, main = "Bar chart")
